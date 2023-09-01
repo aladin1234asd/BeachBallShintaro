@@ -10,9 +10,9 @@ BeachBall.version = '5.2.0.4';
 BeachBall.SCBversion = '3.4121'; //Last SandCastle Builder version tested
 
 //BB Audio Alerts Variables
-BeachBall.audio_Bell = new Audio("http://xenko.comxa.com/Ship_Bell.mp3");
+BeachBall.audio_Bell = new Audio("https://xenko.comxa.com/Ship_Bell.mp3");
 	BeachBall.audio_Bell.volume = 1;
-BeachBall.audio_Chime = new Audio("http://xenko.comxa.com/Chime.mp3");
+BeachBall.audio_Chime = new Audio("https://xenko.comxa.com/Chime.mp3");
 	BeachBall.audio_Chime.volume = 1;
 BeachBall.RKAlertFrequency = 8;
 if (Molpy.Got('Kitnip') == 1){BeachBall.RKAlertFrequency = 10;}
