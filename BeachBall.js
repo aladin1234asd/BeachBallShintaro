@@ -10,9 +10,9 @@ BeachBall.version = '5.2.0.4';
 BeachBall.SCBversion = '3.4121'; //Last SandCastle Builder version tested
 
 //BB Audio Alerts Variables
-BeachBall.audio_Bell = new Audio("https://xenko.comxa.com/Ship_Bell.mp3");
+BeachBall.audio_Bell = new Audio("https://github.com/aladin1234asd/BeachBallShintaro/raw/gh-pages/bell.wav");
 	BeachBall.audio_Bell.volume = 1;
-BeachBall.audio_Chime = new Audio("https://xenko.comxa.com/Chime.mp3");
+BeachBall.audio_Chime = new Audio("https://github.com/aladin1234asd/BeachBallShintaro/raw/gh-pages/chime.wav");
 	BeachBall.audio_Chime.volume = 1;
 BeachBall.RKAlertFrequency = 8;
 if (Molpy.Got('Kitnip') == 1){BeachBall.RKAlertFrequency = 10;}
@@ -844,7 +844,7 @@ BeachBall.ChooseAutoclick = function () {
 	
 	
 	// cps and click per second handling
-	var speed = prompt('How shouw it be clicked ?\nType "X cps" or "Xcps" for X click per second.\nType "X s" or "Xs" for 1 click every X second.');
+	var speed = prompt('How should it be clicked ?\nType "X cps" or "Xcps" for X click per second.\nType "X s" or "Xs" for 1 click every X second.');
 	if (speed === null) { // unasign the fav
 		if (BeachBall.FavsAutoclick[selectedFave] && BeachBall.FavsAutoclick[selectedFave].timer)
 			BeachBall.ToggleAutoclickFav(selectedFave,false); // we turn it off first
