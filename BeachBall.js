@@ -1049,7 +1049,7 @@ BeachBall.DisplayDescription = function(option,type) {
 	if (option == 'BeachAutoClick') {
 		clearInterval(BeachBall.BeachAutoClickTimer);
 		if (me.status >= 2) {
-			BeachBall.BeachAutoClickTimer = setInterval(BeachBall.ClickBeach, 100/me.setting);
+			BeachBall.BeachAutoClickTimer = setInterval(BeachBall.ClickBeach, 1000/me.setting);
 		}
 	}
 	var title = me.title;
